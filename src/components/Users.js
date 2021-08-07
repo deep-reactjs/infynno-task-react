@@ -34,7 +34,6 @@ const Users = () => {
           </tr>
         </thead>
         <tbody>
-          {console.log(usersData)}
           {usersData?.map((user) => (
             <tr>
             <th>{user.id}</th>
